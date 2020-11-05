@@ -1,0 +1,41 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    height: 200px;
+    border: black 1px solid;
+    margin: 20px;
+}
+ 
+ .btn {
+    background-color: rgb(65, 62, 62);
+    border: lightgray solid .5px;
+    color: #ffffff;
+    font-family: 'Raleway',sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+
+  .btn:hover{
+    background-color: rgb(167, 155, 155);
+    color: black;
+    transition: color .7s ease-in, background-color 1s ease-in;
+
+  }
+
+  .btn:active{
+    font-size: 22px;
+    transition: font-size .1s ease-in-out;
+}
